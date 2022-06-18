@@ -15,7 +15,7 @@ Game_window=pygame.display.set_mode((600,600))
 pygame.display.set_caption("Snake Game")
 
 # Sound
-mixer.music.load("On My Way.mp3")
+mixer.music.load("music.mp3")
 mixer.music.play(loops = 10)
 
 clock = pygame.time.Clock()
